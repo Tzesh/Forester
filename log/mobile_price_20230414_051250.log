@@ -1,0 +1,25 @@
+[Fri, 14 Apr 2023 05:12:50] ERROR Pre-trained model is not found
+[Fri, 14 Apr 2023 05:12:50] INFO Data has been preprocessed
+[Fri, 14 Apr 2023 05:12:50] INFO ('Data has been split with train size: ', 0.3, ' and random state: ', 1)
+[Fri, 14 Apr 2023 05:15:30] INFO Randomized Search has been completed
+[Fri, 14 Apr 2023 05:15:30] INFO Best Score: 0.9092857142857144
+[Fri, 14 Apr 2023 05:15:30] INFO Best Hyperparameters: {'max_features': 10, 'n_estimators': 252}
+[Fri, 14 Apr 2023 05:15:31] INFO Model has been trained and saved
+[Fri, 14 Apr 2023 05:15:31] INFO Model has been evaluated
+[Fri, 14 Apr 2023 05:15:31] INFO Accuracy: 88.67
+[Fri, 14 Apr 2023 05:15:31] DEBUG locator: <matplotlib.ticker.AutoLocator object at 0x17da53490>
+[Fri, 14 Apr 2023 05:15:31] INFO Confusion Matrix: 
+[Fri, 14 Apr 2023 05:15:31] INFO [[125  10   0   0]
+ [  9 129  11   0]
+ [  0  15 140  13]
+ [  0   0  10 138]]
+[Fri, 14 Apr 2023 05:15:31] INFO Precision: 88.68
+[Fri, 14 Apr 2023 05:15:31] INFO Recall: 88.67
+[Fri, 14 Apr 2023 05:15:31] INFO Feature Importance: [0.0987697  0.00225712 0.01121805 0.00274208 0.01095535 0.00210522
+ 0.01738721 0.01236288 0.01964633 0.00914711 0.01194544 0.06198995
+ 0.05375978 0.64153341 0.01113717 0.01248163 0.0138952  0.00188057
+ 0.00244299 0.00234282]
+[Fri, 14 Apr 2023 05:15:31] INFO First Decision Tree has been plotted and saved
+[Fri, 14 Apr 2023 05:15:31] INFO ('Making prediction for: ', [842, 0, 2.2, 0, 1, 0, 7, 0.6, 188, 2, 2, 20, 756, 2549, 9, 7, 19, 0, 0, 1])
+[Fri, 14 Apr 2023 05:15:31] INFO ('Converted to numerical data: ', [842, 0, 2.2, 0, 1, 0, 7, 0.6, 188, 2, 2, 20, 756, 2549, 9, 7, 19, 0, 0, 1])
+[Fri, 14 Apr 2023 05:15:31] INFO ('Prediction: ', array([1]))

@@ -1,0 +1,4 @@
+[Fri, 14 Apr 2023 05:16:03] INFO Model found and loaded
+[Fri, 14 Apr 2023 05:16:03] INFO ('Making prediction for: ', [47, 1, 0, 110, 275, 0, 0, 118, 1, 1, 1, 1, 2])
+[Fri, 14 Apr 2023 05:16:03] INFO ('Converted to numerical data: ', [47, 1, 0, 110, 275, 0, 0, 118, 1, 1, 1, 1, 2])
+[Fri, 14 Apr 2023 05:16:03] INFO ('Prediction: ', array([0]))
