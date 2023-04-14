@@ -630,21 +630,6 @@ class Forester():
         Destructor
         """
 
-        # create prefix to log file
-        prefix = time.strftime('%Y%m%d_%H%M%S')
-
-        # create file handler and set level to debug
-        fh = logging.FileHandler('./log/' + self.data_file_name + '_' + prefix + '.log')
-
-        # create stream handler and set level to debug
-        sh = logging.StreamHandler(sys.stdout)
-
-        # close stream handler
-        sh.close()
-
-        # close file handler
-        fh.close()
-
         # remove all handlers
         self.logger.handlers = []
 
